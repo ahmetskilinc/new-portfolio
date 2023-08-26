@@ -10,9 +10,9 @@ export default function Connect() {
 						<Image src="/me.png" alt="" className="rounded-full grayscale" objectFit="cover" fill />
 					</div>
 					<p className="text-2xl max-w-6xl -translate-y-28 -mb-28 md:-translate-y-20 md:px-7 md:-mb-20 font-extralight text-justify">
-						Welcome to my website! I'm Ahmet, a passionate web developer specialising in React and Next.js. With a computer
-						science degree as my foundation, I'm self-taught in web development and always seeking new skills and knowledge to
-						enhance my craft. You can take a look at some of my projects below or contact me through email or social media
+						Welcome to my website! I&apos;m Ahmet, a passionate web developer specialising in React and Next.js. With a computer
+						science degree as my foundation, I&apos;m self-taught in web development and always seeking new skills and knowledge
+						to enhance my craft. You can take a look at some of my projects below or contact me through email or social media
 						above!
 					</p>
 					<div className="flex flex-row gap-8 flex-grow mt-10">
