@@ -10,26 +10,31 @@ export default function Connect() {
 				<div className="items-end justify-end flex flex-row gap-8">
 					<Link href="https://codepen.io/ahmetskilinc">
 						<div className="relative h-5 w-5 md:h-8 md:w-8">
+							<p className="sr-only">codepen</p>
 							<Image src="/codepen.svg" alt="" objectFit="cover" fill />
 						</div>
 					</Link>
 					<Link href="https://github.com/ahmetskilinc">
 						<div className="relative h-5 w-5 md:h-8 md:w-8">
+							<p className="sr-only">github</p>
 							<Image src="/github.svg" alt="" objectFit="cover" fill />
 						</div>
 					</Link>
 					<Link href="https://linkedin.com/in/ahmetskilinc">
 						<div className="relative h-5 w-5 md:h-8 md:w-8">
+							<p className="sr-only">linkedin</p>
 							<Image src="/linkedin.svg" alt="" objectFit="cover" fill />
 						</div>
 					</Link>
 					<Link href="mailto:ahmetskilinc@icloud.com">
 						<div className="relative h-5 w-5 md:h-8 md:w-8">
+							<p className="sr-only">email</p>
 							<Image src="/email.svg" alt="" objectFit="cover" fill />
 						</div>
 					</Link>
 					<Link href="https://instagram.com/bruvimtired">
 						<div className="relative h-5 w-5 md:h-8 md:w-8">
+							<p className="sr-only">instagram</p>
 							<Image src="/instagram.svg" alt="" objectFit="cover" fill />
 						</div>
 					</Link>
