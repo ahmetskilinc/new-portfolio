@@ -8,6 +8,19 @@
 	"orientation": "portrait",
 	"scope": "/",
 	"start_url": "/",
+	"shortcuts": [
+		{
+			"name": "About",
+			"url": "/about"
+		},
+		{
+			"name": "Projects",
+			"url": "/projects"
+		}
+	],
+	"display_override": [
+		"window-controls-overlay"
+	],
 	"icons": [
 		{
 			"src": "windows11/SmallTile.scale-100.png",
