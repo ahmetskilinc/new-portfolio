@@ -44,7 +44,6 @@
 			"type": "image/png",
 			"purpose": "any"
 		},
-		,
 		{
 			"src": "windows11/Square150x150Logo.scale-125.png",
 			"sizes": "188x188",
