@@ -16,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<head>
 				<meta name="theme-color" content="#FF8C00" />
 				<link rel="manifest" href="manifest.json" />
+				<link rel="icon" type="image/x-icon" href="/favicon.png"></link>
 			</head>
 			<body className={`${inter.className} !text-[#f2f2f2]`}>
 				<nav className="fixed w-full z-10">
