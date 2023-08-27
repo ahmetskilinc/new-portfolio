@@ -1,0 +1,10 @@
+{
+	"name": "Ahmet Kilinç",
+	"short_name": "Ahmet Kilinç",
+	"theme_color": "#FF8C00",
+	"background_color": "#FF8C00",
+	"display": "fullScreen",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/"
+}
