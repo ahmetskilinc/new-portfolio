@@ -14,7 +14,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en" className="bg-[#50c878]">
 			<head>
-				<meta name="theme-color" content="#50c878" />
+				<meta name="theme-color" content="#50c878" media="(prefers-color-scheme: light)" />
+				<meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)" />
 				<link rel="manifest" href="manifest.json" />
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 			</head>
