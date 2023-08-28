@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="en" className="bg-[#FF8C00]">
+		<html lang="en" className="bg-[#50c878]">
 			<head>
 				<meta name="theme-color" content="#FF8C00" />
 				<link rel="manifest" href="manifest.json" />
-				<link rel="icon" type="image/x-icon" href="/favicon.png"></link>
+				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 			</head>
 			<body className={`${inter.className} !text-[#f2f2f2]`}>
 				<nav className="fixed w-full z-10">
