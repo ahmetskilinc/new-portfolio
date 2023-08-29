@@ -1,8 +1,10 @@
 import type { Project } from "@/data/projectsData";
 import { Url } from "next/dist/shared/lib/router/router";
+import { Roboto_Slab } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
+const font = Roboto_Slab({ subsets: ["latin"] });
 
 type Props = {
 	project: Project;
@@ -25,8 +27,8 @@ const Project = ({ project: { img, title, description, github, link } }: Props) 
 	return (
 		<div className="flex gap-[22px] justify-center md:justify-normal items-center flex-col-reverse md:flex-row">
 			<div className="flex flex-col gap-2 md:gap-6 md:text-right">
-				<h3 className="text-lg md:text-3xl font-normal">{title}</h3>
-				<p className="md:w-[455px] text-base md:text-2xl font-extralight">{description}</p>
+				<h3 className={`${font.className} text-lg md:text-3xl font-normal`}>{title}</h3>
+				<p className="md:w-[455px] text-base md:text-xl font-extralight">{description}</p>
 				<ProjectLinks github={github} link={link} />
 			</div>
 			<div className="relative w-full aspect-[1920/1201] md:aspect-auto md:w-[662px] md:h-[412px] ">
