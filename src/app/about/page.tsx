@@ -9,7 +9,7 @@ export default function Connect() {
 					<div className="relative w-[340px] h-[340px] sm:w-[380px] sm:h-[380px] md:w-[560px] md:h-[560px] lg:h-[800px] lg:w-[800px]">
 						<Image src="/me.png" alt="" className="rounded-full grayscale" objectFit="cover" fill />
 					</div>
-					<p className="text-2xl max-w-6xl -translate-y-28 -mb-28 md:-translate-y-20 md:px-7 md:-mb-20 font-extralight text-justify">
+					<p className="text-xl max-w-6xl -mb-20 -translate-y-20 md:px-7 font-extralight text-justify">
 						Welcome to my website! I&apos;m Ahmet, a passionate web developer specialising in React and Next.js. With a computer
 						science degree as my foundation, I&apos;m self-taught in web development and always seeking new skills and knowledge
 						to enhance my craft. You can take a look at some of my projects below or contact me through email or social media

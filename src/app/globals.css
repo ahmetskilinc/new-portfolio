@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background-color: hsla(61, 50%, 41%, 1);
+	/* background-image: radial-gradient(at 62% 62%, hsla(6, 73%, 52%, 1) 0px, transparent 50%),
+		radial-gradient(at 14% 8%, hsla(347, 81%, 55%, 1) 0px, transparent 50%),
+		radial-gradient(at 74% 62%, hsla(12, 94%, 53%, 1) 0px, transparent 50%),
+		radial-gradient(at 13% 87%, hsla(105, 100%, 62%, 1) 0px, transparent 50%); */
+}
