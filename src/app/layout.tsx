@@ -1,3 +1,4 @@
+import CustomCursor from "@/components/CustomCursor";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Roboto_Slab } from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<link rel="icon" type="image/x-icon" href="/favicon.png" />
 			</head>
 			<body className={`${inter.className} !text-[#f2f2f2]`}>
+				<CustomCursor />
 				<nav className="fixed w-full z-10">
 					<div className="flex justify-between w-11/12 mx-auto h-[82px] items-center">
 						<Link href="/" className="text-2xl font-light flex gap-4 items-center">

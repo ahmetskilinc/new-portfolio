@@ -4,8 +4,30 @@
 
 body {
 	background-color: hsla(61, 50%, 41%, 1);
-	/* background-image: radial-gradient(at 62% 62%, hsla(6, 73%, 52%, 1) 0px, transparent 50%),
-		radial-gradient(at 14% 8%, hsla(347, 81%, 55%, 1) 0px, transparent 50%),
-		radial-gradient(at 74% 62%, hsla(12, 94%, 53%, 1) 0px, transparent 50%),
-		radial-gradient(at 13% 87%, hsla(105, 100%, 62%, 1) 0px, transparent 50%); */
+	cursor: none;
+}
+
+.cursor {
+	/* background-color: #111; */
+	border: 1px solid #f2f2f2;
+	height: 52px;
+	width: 52px;
+	border-radius: 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 999;
+}
+
+.cursor-dot {
+	background-color: #c8c8c8;
+	height: 3px;
+	width: 3px;
+	border-radius: 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 999;
 }
